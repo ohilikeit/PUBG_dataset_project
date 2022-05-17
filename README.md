@@ -29,7 +29,6 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 단순히 256*2, 128*2, 64*2, 32, 16 층만 사용하였고 overfitting 방지를 위한 batch normalization, dropout, initializer, regularizer와 earlystoppin을 적용하였다. ReduceLRonPlateau를 통해 loss를 줄이는 최소한의 노력을 들였다. 너무 간단한 구조라 딱히 설명할 것도 없는 것 같다! 학습 곡선을 그려본 결과 train loss와 val loss가 같이 잘 내려가는 것처럼 보인다. NMAE는 0.1273 정도 나왔다.
 
 ![1](https://user-images.githubusercontent.com/37128004/168826013-b0453a1a-7e9c-47df-a8cd-23a0bc955cb5.png)
-
 ![2](https://user-images.githubusercontent.com/37128004/168826063-168c1e9d-446a-4269-ba90-1a1f7f9df5cb.png)
 
 ## Conclusion
