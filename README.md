@@ -1,10 +1,10 @@
 # PUBG_dataset_project
 ![dddd](https://user-images.githubusercontent.com/37128004/168798843-74807401-9c7a-4a40-905b-fc4d4da1a0a0.png)
-## 개요
+## Abstract
 학교에서 신청하는 코멘토 빅데이터 프로젝트에 참여했다가 운영과정의 문제(?)가 생겼다. 이에 추가로 받은 쿠폰으로 등록한 빅데이터 분석 자율과정에서 진행한 조그마한 프로젝트이다. 
 완전 초창기라 데이터셋 찾는 것도 빡쎘던 기억이 있으나 좋아하던 게임, 배틀그라운드 데이터가 Kaggle에 있기에 신나게 다운받아 주제로 선정하였다. 주제는 '배틀그라운드 게임 데이터를 이용한 순위 예측'으로 게임 내의 유저 정보를 통해 최종 순위(winPlacePerc, 0~1)를 예측해보았다. 전처리 과정을 거치고 이번엔 DNN을 활용했다.
 
-## 데이터셋
+## Data
 데이터는 Kaggle의 [PUBG_Datset](https://www.kaggle.com/datasets/razamh/pubg-dataset)를 활용하였다. 유저들의 matchID, 킬 수, 어시스트 수, 데미지, 힐링 아이템, 킬 수 순위, 시간, 매치 타입, 부활 횟수, 이동 거리 등의 정보로 최종 순위(winPlacePerc, 0에서 1사이 실수, 0이면 꼴등, 1이면 1등)을 맞추는 구조로 진행하였다. 
 
 ## EDA
@@ -28,7 +28,8 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 ## Modeling
 단순히 256*2, 128*2, 64*2, 32, 16 층만 사용하였고 overfitting 방지를 위한 batch normalization, dropout, initializer, regularizer와 earlystoppin을 적용하였다. ReduceLRonPlateau를 통해 loss를 줄이는 최소한의 노력을 들였다. 너무 간단한 구조라 딱히 설명할 것도 없는 것 같다! 학습 곡선을 그려본 결과 train loss와 val loss가 같이 잘 내려가는 것처럼 보인다. NMAE는 0.1273 정도 나왔다.
 
-## 결론
+## Conclusion
+요즘은 잘 사용하는 것 같진 않지만 전체적으로 딥러닝이라는 과정이 어떻게 돌아가는지 맛보기로 해볼 수 있던 경험이었다. 생각보다 디테일하게 신경써야 할 부분들이 많다는 점도 깨달았다.(마지막 test 셋으로 평가해볼때 reshape를 해주지 않아서 ram용량 초과로 터져버리는 일도 생기고..) 이젠 최신 논문들 리뷰도 하면서 트렌드를 따라가봐야겠다. 
 
 
 
