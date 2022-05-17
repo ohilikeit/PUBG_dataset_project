@@ -25,9 +25,10 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 2) 파생변수 생성 : 전투포인트, 메디컬 포인트, 팀워크, 초당 킬수, 거리 당 포인트 등의 파생변수를 생성했다. 
 3) 정규화 및 매핑 : 딥러닝 모델을 사용할 것이기에 변수들을 정규화해주었는데 팀 단위로 순위에 영향을 끼치는 변수를 따로 묶고 개인 능력치 변수를 따로 묶어서 적용시켰다. 또한 matchId, groupId 별 평균치로 바꿔 일반화 성능을 높였다.
 
+## Modeling
+단순히 256*2, 128*2, 64*2, 32, 16 층만 사용하였고 overfitting 방지를 위한 batch normalization, dropout, initializer, regularizer와 earlystoppin을 적용하였다. ReduceLRonPlateau를 통해 loss를 줄이는 최소한의 노력을 들였다. 너무 간단한 구조라 딱히 설명할 것도 없는 것 같다! 학습 곡선을 그려본 결과 train loss와 val loss가 같이 잘 내려가는 것처럼 보인다. NMAE는 0.1273 정도 나왔다.
 
-
-
+## 결론
 
 
 
