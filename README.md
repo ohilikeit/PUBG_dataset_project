@@ -18,9 +18,11 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 도보 이동거리와 순위는 높은 상관관계를 가진다. 당연하다. 순위가 높을수록 살아있는 시간이 길고, 많이 움직인다!
 <img src="https://user-images.githubusercontent.com/37128004/197382351-5b732ffa-b393-408a-a22e-05dbc78ca9c3.png" width="600" height="400"/>
 ### 4. Match Duration : 매치시간이 길수록 치킨을 잘 먹는가?
-모든 순위와의 관계를 보기에 무리가 있어 1등만 봤다. 1200~1500초 사이와 1700~2000초 사이에 대부분 밀집되어 있는 것은 블루존이 5~6단계, 8~9단계 사이에 게임이 끝났음을 의미한다. 맵의 크기에 따라 다르게 나타나는 것이므로 타겟 예측에 큰 영향을 끼치진 않을 것 같다.
+모든 순위와의 관계를 보기에 무리가 있어 1등만 봤다. 1200에서 1500초 사이와 1700에서 2000초 사이에 대부분 밀집되어 있는 것은 블루존이 5에서 6단계, 8에서 9단계 사이에 게임이 끝났음을 의미한다. 맵의 크기에 따라 다르게 나타나는 것이므로 타겟 예측에 큰 영향을 끼치진 않을 것 같다.
+<img src="https://user-images.githubusercontent.com/37128004/197382478-e4e19258-d98c-4d24-8085-f16b1e60c175.png" width="600" height="400"/>
 ### 5. Plyaers in Group : 같은 팀이 많을수록 치킨을 잘 먹는가?
 솔로, 듀오, 스쿼드 모두 비슷하게 나타나고 있다.
+<img src="https://user-images.githubusercontent.com/37128004/197382498-ced66f99-14f1-43f4-9381-7ba4200afd0b.png" width="600" height="400"/>
 
 ## Preprocess
 1) 이상치 제거 : Unnamed:0 와 Id 특성을 제거하고 이상한 데이터(ex) 매치 킬 1등인데 순위 꼴등인 유저,..)를 삭제했다. 
