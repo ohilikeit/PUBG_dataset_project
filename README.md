@@ -13,7 +13,7 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 <img src="https://user-images.githubusercontent.com/37128004/197382143-5b53357f-fa7f-4c77-a07c-8fa7886293cf.png" width="600" height="400"/>
 ### 2. Groups : 매치 내 총 그룹 수가 적을수록 치킨을 잘 먹는가?
 숫자 별로 구분하여 비교해본 결과 솔로 -> 듀오 -> 스쿼드로 갈수록 상위권 성적의 유저가 적었다. 하지만 솔로와는 다르게 듀오와 스쿼드는 게임을 나가지 않는다면 마지막까지 살아남는 팀원의 순위가 자신의 순위가 됨을 인지하자!
-<img src="https://user-images.githubusercontent.com/37128004/197382282-70230c0e-bbf1-4326-8438-d6eeb58fc1e7.png"  width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/37128004/197382282-70230c0e-bbf1-4326-8438-d6eeb58fc1e7.png"  width="400" height="200"/>
 ### 3. Moving Distance : 많이 이동할수록 치킨을 잘 먹는가?
 도보 이동거리와 순위는 높은 상관관계를 가진다. 당연하다. 순위가 높을수록 살아있는 시간이 길고, 많이 움직인다!
 ### 4. Match Duration : 매치시간이 길수록 치킨을 잘 먹는가?
