@@ -16,7 +16,7 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 <img src="https://user-images.githubusercontent.com/37128004/197382282-70230c0e-bbf1-4326-8438-d6eeb58fc1e7.png"  width="400" height="200"/>
 ### 3. Moving Distance : 많이 이동할수록 치킨을 잘 먹는가?
 도보 이동거리와 순위는 높은 상관관계를 가진다. 당연하다. 순위가 높을수록 살아있는 시간이 길고, 많이 움직인다!
-<img src="https://user-images.githubusercontent.com/37128004/197382351-5b732ffa-b393-408a-a22e-05dbc78ca9c3.png width="600" height="400"/>
+<img src="https://user-images.githubusercontent.com/37128004/197382351-5b732ffa-b393-408a-a22e-05dbc78ca9c3.png" width="600" height="400"/>
 ### 4. Match Duration : 매치시간이 길수록 치킨을 잘 먹는가?
 모든 순위와의 관계를 보기에 무리가 있어 1등만 봤다. 1200~1500초 사이와 1700~2000초 사이에 대부분 밀집되어 있는 것은 블루존이 5~6단계, 8~9단계 사이에 게임이 끝났음을 의미한다. 맵의 크기에 따라 다르게 나타나는 것이므로 타겟 예측에 큰 영향을 끼치진 않을 것 같다.
 ### 5. Plyaers in Group : 같은 팀이 많을수록 치킨을 잘 먹는가?
