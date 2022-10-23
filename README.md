@@ -31,7 +31,7 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 ### 5. Plyaers in Group : 같은 팀이 많을수록 치킨을 잘 먹는가?
 솔로, 듀오, 스쿼드 모두 비슷하게 나타나고 있다.
 
-<img src="https://user-images.githubusercontent.com/37128004/197382498-ced66f99-14f1-43f4-9381-7ba4200afd0b.png" width="600" height="400"/>
+<img src="https://user-images.githubusercontent.com/37128004/197382498-ced66f99-14f1-43f4-9381-7ba4200afd0b.png" width="800" height="400"/>
 
 ## Preprocess
 1) 이상치 제거 : Unnamed:0 와 Id 특성을 제거하고 이상한 데이터(ex) 매치 킬 1등인데 순위 꼴등인 유저,..)를 삭제했다. 
