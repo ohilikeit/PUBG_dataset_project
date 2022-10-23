@@ -10,7 +10,7 @@
 EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 competition 공유 코드를 참고하였다. 총 6단계로 나눠서 알아보고 싶은 것들을 구현해봤다. winner winner chicken dinner! 과연 어떤 유저가 치킨을 더 잘 먹을까?? 
 ### 1. Kills : 사람들은 몇 킬을 하고 데미지를 얼마나 넣었는가?
 반 이상의 사람들이 1킬도 하지 못한 채 죽었으며 예상대로 킬을 못한 사람들은 데미지 역시 많이 넣지 못했으나 높은 등수까지 살아남은 비중이 꽤 높았다. 킬 수는 높을수록 더 높은 순위를 차지한 것으로 보인다.
-<img src="https://user-images.githubusercontent.com/37128004/197382143-5b53357f-fa7f-4c77-a07c-8fa7886293cf.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/37128004/197382143-5b53357f-fa7f-4c77-a07c-8fa7886293cf.png" width="800" height="400"/>
 ### 2. Groups : 매치 내 총 그룹 수가 적을수록 치킨을 잘 먹는가?
 숫자 별로 구분하여 비교해본 결과 솔로 -> 듀오 -> 스쿼드로 갈수록 상위권 성적의 유저가 적었다. 하지만 솔로와는 다르게 듀오와 스쿼드는 게임을 나가지 않는다면 마지막까지 살아남는 팀원의 순위가 자신의 순위가 됨을 인지하자!
 ### 3. Moving Distance : 많이 이동할수록 치킨을 잘 먹는가?
