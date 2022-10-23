@@ -12,18 +12,22 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 반 이상의 사람들이 1킬도 하지 못한 채 죽었으며 예상대로 킬을 못한 사람들은 데미지 역시 많이 넣지 못했으나 높은 등수까지 살아남은 비중이 꽤 높았다. 킬 수는 높을수록 더 높은 순위를 차지한 것으로 보인다.
 
 <img src="https://user-images.githubusercontent.com/37128004/197382143-5b53357f-fa7f-4c77-a07c-8fa7886293cf.png" width="600" height="400"/>
+
 ### 2. Groups : 매치 내 총 그룹 수가 적을수록 치킨을 잘 먹는가?
 숫자 별로 구분하여 비교해본 결과 솔로 -> 듀오 -> 스쿼드로 갈수록 상위권 성적의 유저가 적었다. 하지만 솔로와는 다르게 듀오와 스쿼드는 게임을 나가지 않는다면 마지막까지 살아남는 팀원의 순위가 자신의 순위가 됨을 인지하자!
 
 <img src="https://user-images.githubusercontent.com/37128004/197382282-70230c0e-bbf1-4326-8438-d6eeb58fc1e7.png"  width="600" height="400"/>
+
 ### 3. Moving Distance : 많이 이동할수록 치킨을 잘 먹는가?
 도보 이동거리와 순위는 높은 상관관계를 가진다. 당연하다. 순위가 높을수록 살아있는 시간이 길고, 많이 움직인다!
 
 <img src="https://user-images.githubusercontent.com/37128004/197382351-5b732ffa-b393-408a-a22e-05dbc78ca9c3.png" width="600" height="400"/>
+
 ### 4. Match Duration : 매치시간이 길수록 치킨을 잘 먹는가?
 모든 순위와의 관계를 보기에 무리가 있어 1등만 봤다. 1200에서 1500초 사이와 1700에서 2000초 사이에 대부분 밀집되어 있는 것은 블루존이 5에서 6단계, 8에서 9단계 사이에 게임이 끝났음을 의미한다. 맵의 크기에 따라 다르게 나타나는 것이므로 타겟 예측에 큰 영향을 끼치진 않을 것 같다.
 
 <img src="https://user-images.githubusercontent.com/37128004/197382478-e4e19258-d98c-4d24-8085-f16b1e60c175.png" width="600" height="400"/>
+
 ### 5. Plyaers in Group : 같은 팀이 많을수록 치킨을 잘 먹는가?
 솔로, 듀오, 스쿼드 모두 비슷하게 나타나고 있다.
 
