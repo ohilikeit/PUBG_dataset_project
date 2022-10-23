@@ -22,6 +22,7 @@ EDA는 [EDA is Fun!](https://www.kaggle.com/code/deffro/eda-is-fun)이라는 com
 <img src="https://user-images.githubusercontent.com/37128004/197382478-e4e19258-d98c-4d24-8085-f16b1e60c175.png" width="600" height="400"/>
 ### 5. Plyaers in Group : 같은 팀이 많을수록 치킨을 잘 먹는가?
 솔로, 듀오, 스쿼드 모두 비슷하게 나타나고 있다.
+
 <img src="https://user-images.githubusercontent.com/37128004/197382498-ced66f99-14f1-43f4-9381-7ba4200afd0b.png" width="600" height="400"/>
 
 ## Preprocess
